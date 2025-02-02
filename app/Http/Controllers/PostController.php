@@ -38,4 +38,10 @@ class PostController extends Controller
         Post::destroy($id);
         return response()->json(null, 204);
     }
+
+
+    public function addCar($id)
+    {
+        Post
+    }
 }
